@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش ممیزی داخلی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🔍 فرم گزارش ممیزی داخلی</h2>
+
+    <label>عنوان ممیزی:</label>
+    <input type="text" name="audit_title">
+
+    <label>تاریخ انجام ممیزی:</label>
+    <input type="date" name="audit_date">
+
+    <label>واحد یا فرآیند مورد ممیزی:</label>
+    <input type="text" name="audited_unit">
+
+    <label>هدف ممیزی:</label>
+    <textarea name="audit_objective"></textarea>
+
+    <label>دامنه ممیزی:</label>
+    <textarea name="audit_scope"></textarea>
+
+    <label>روش ممیزی (مصاحبه، مشاهده، بررسی مدارک):</label>
+    <textarea name="audit_method"></textarea>
+
+    <label>عدم انطباق‌های شناسایی‌شده:</label>
+    <textarea name="nonconformities_found"></textarea>
+
+    <label>فرصت‌های بهبود:</label>
+    <textarea name="improvement_opportunities"></textarea>
+
+    <label>اقدامات پیشنهادی:</label>
+    <textarea name="recommended_actions"></textarea>
+
+    <label>نام ممیز:</label>
+    <input type="text" name="auditor_name">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
