@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش عملکرد واحد – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📊 فرم گزارش عملکرد واحد</h2>
+
+    <label>نام واحد یا دپارتمان:</label>
+    <input type="text" name="unit_name">
+
+    <label>دوره گزارش‌دهی:</label>
+    <select name="reporting_period">
+      <option value="monthly">ماهانه</option>
+      <option value="quarterly">فصلی</option>
+      <option value="yearly">سالانه</option>
+    </select>
+
+    <label>اهداف دوره‌ای واحد:</label>
+    <textarea name="unit_goals"></textarea>
+
+    <label>فعالیت‌های کلیدی انجام‌شده:</label>
+    <textarea name="key_activities"></textarea>
+
+    <label>دستاوردهای قابل اندازه‌گیری:</label>
+    <textarea name="measurable_results"></textarea>
+
+    <label>شاخص‌های عملکرد (KPI):</label>
+    <textarea name="kpi_summary"></textarea>
+
+    <label>نقاط قوت عملکردی:</label>
+    <textarea name="performance_strengths"></textarea>
+
+    <label>چالش‌ها و موانع:</label>
+    <textarea name="performance_challenges"></textarea>
+
+    <label>پیشنهادات بهبود:</label>
+    <textarea name="improvement_suggestions"></textarea>
+
+    <label>نام گزارش‌دهنده:</label>
+    <input type="text" name="reporter_name">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
