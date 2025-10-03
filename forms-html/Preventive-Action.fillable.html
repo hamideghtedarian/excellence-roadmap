@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت اقدام پیشگیرانه – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🛡️ فرم ثبت اقدام پیشگیرانه</h2>
+
+    <label>عنوان اقدام پیشگیرانه:</label>
+    <input type="text" name="action_title">
+
+    <label>شرح اقدام یا ایده پیشگیرانه:</label>
+    <textarea name="action_description"></textarea>
+
+    <label>منشأ شناسایی (ممیزی، تحلیل ریسک، پیشنهاد، ...):</label>
+    <select name="action_source">
+      <option value="audit">ممیزی</option>
+      <option value="risk_analysis">تحلیل ریسک</option>
+      <option value="suggestion">پیشنهاد کارکنان</option>
+      <option value="monitoring">پایش فرآیند</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>واحد یا فرآیند مرتبط:</label>
+    <input type="text" name="related_unit">
+
+    <label>ریسک یا مشکل بالقوه:</label>
+    <textarea name="potential_issue"></textarea>
+
+    <label>اقدام پیشنهادی برای پیشگیری:</label>
+    <textarea name="preventive_action"></textarea>
+
+    <label>مسئول اجرا:</label>
+    <input type="text" name="action_owner">
+
+    <label>مهلت اجرا:</label>
+    <input type="date" name="due_date">
+
+    <label>وضعیت اقدام:</label>
+    <select name="action_status">
+      <option value="planned">برنامه‌ریزی‌شده</option>
+      <option value="in_progress">در حال اجرا</option>
+      <option value="completed">انجام‌شده</option>
+    </select>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
