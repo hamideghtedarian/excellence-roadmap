@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت عدم انطباق – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🚫 فرم ثبت عدم انطباق</h2>
+
+    <label>شماره یا عنوان عدم انطباق:</label>
+    <input type="text" name="nonconformity_title">
+
+    <label>شرح عدم انطباق:</label>
+    <textarea name="nonconformity_description"></textarea>
+
+    <label>منشأ یا منبع شناسایی:</label>
+    <select name="source">
+      <option value="internal_audit">ممیزی داخلی</option>
+      <option value="external_audit">ممیزی خارجی</option>
+      <option value="customer_feedback">بازخورد مشتری</option>
+      <option value="process_monitoring">پایش فرآیند</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>واحد یا فرآیند مرتبط:</label>
+    <input type="text" name="related_unit">
+
+    <label>تاریخ شناسایی:</label>
+    <input type="date" name="identification_date">
+
+    <label>اقدام اصلاحی پیشنهادی:</label>
+    <textarea name="corrective_action"></textarea>
+
+    <label>مسئول اقدام اصلاحی:</label>
+    <input type="text" name="action_owner">
+
+    <label>مهلت اجرا:</label>
+    <input type="date" name="due_date">
+
+    <label>وضعیت رسیدگی:</label>
+    <select name="status">
+      <option value="open">باز</option>
+      <option value="in_progress">در حال اقدام</option>
+      <option value="closed">بسته شده</option>
+    </select>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت نهایی:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
