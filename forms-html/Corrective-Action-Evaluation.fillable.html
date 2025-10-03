@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ارزیابی اثربخشی اقدام اصلاحی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🛠️ فرم ارزیابی اثربخشی اقدام اصلاحی</h2>
+
+    <label>شماره یا عنوان اقدام اصلاحی:</label>
+    <input type="text" name="action_title">
+
+    <label>شرح اقدام انجام‌شده:</label>
+    <textarea name="action_description"></textarea>
+
+    <label>منشأ اقدام (عدم انطباق، شکایت، ارزیابی، ...):</label>
+    <textarea name="action_origin"></textarea>
+
+    <label>واحد مسئول اجرا:</label>
+    <input type="text" name="responsible_unit">
+
+    <label>تاریخ اجرای اقدام:</label>
+    <input type="date" name="execution_date">
+
+    <label>نتایج حاصل‌شده:</label>
+    <textarea name="action_results"></textarea>
+
+    <label>آیا مشکل به‌طور کامل رفع شده است؟</label>
+    <select name="problem_resolved">
+      <option value="yes">بله</option>
+      <option value="partial">تا حدی</option>
+      <option value="no">خیر</option>
+    </select>
+
+    <label>شواهد اثربخشی:</label>
+    <textarea name="effectiveness_evidence"></textarea>
+
+    <label>پیشنهادات تکمیلی یا اقدامات بعدی:</label>
+    <textarea name="follow_up_suggestions"></textarea>
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
