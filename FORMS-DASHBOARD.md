@@ -37,6 +37,7 @@
 | 25 | ثبت عدم انطباق | Nonconformity-Report.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Nonconformity-Report.fillable.html) |
 | 26 | گزارش ممیزی داخلی | Internal-Audit-Report.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Internal-Audit-Report.fillable.html) |
 | 27 | ارزیابی ریسک پروژه | Project-Risk-Evaluation.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Project-Risk-Evaluation.fillable.html) |
+| 28 | ثبت اقدام پیشگیرانه | Preventive-Action.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Preventive-Action.fillable.html) |
 
 ## 🛠️ نکات تکمیلی
 
