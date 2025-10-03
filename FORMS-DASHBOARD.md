@@ -22,6 +22,8 @@
 - فرم‌ها قابل تکمیل در مرورگر و قابل چاپ هستند  
 - در صورت نیاز، نسخه‌های انگلیسی یا دو‌زبانه نیز طراحی خواهد شد  
 - برای اتصال به داشبوردهای گزارش‌گیری، می‌توان از Airtable یا Excel استفاده کرد
-- | 07 | گزارش شاخص‌های کلیدی عملکرد | KPI-Report.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/KPI-Report.fillable.html) |
+- | 07 | گزارش شاخص‌های کلیدی عملکرد | KPI-Report.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/KPI-Report.fillable.html)
+  | 08 | ارزیابی تعالی سازمانی | Excellence-Evaluation.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/Excellence-Evaluation.fillable.html) |
+
 
 
