@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش شاخص‌ها – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📈 فرم گزارش شاخص‌های کلیدی عملکرد</h2>
+
+    <label>عنوان شاخص:</label>
+    <input type="text" name="kpi_title">
+
+    <label>واحد اندازه‌گیری:</label>
+    <input type="text" name="unit_of_measure">
+
+    <label>دوره گزارش‌دهی:</label>
+    <select name="reporting_period">
+      <option value="monthly">ماهانه</option>
+      <option value="quarterly">فصلی</option>
+      <option value="yearly">سالانه</option>
+    </select>
+
+    <label>مقدار هدف‌گذاری‌شده:</label>
+    <input type="number" name="target_value">
+
+    <label>مقدار واقعی ثبت‌شده:</label>
+    <input type="number" name="actual_value">
+
+    <label>تحلیل انحراف از هدف:</label>
+    <textarea name="gap_analysis"></textarea>
+
+    <label>اقدامات اصلاحی یا بهبود:</label>
+    <textarea name="corrective_actions"></textarea>
+
+    <label>واحد مسئول پایش:</label>
+    <input type="text" name="monitoring_unit">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
