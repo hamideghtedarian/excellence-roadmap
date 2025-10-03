@@ -20,6 +20,7 @@
 | 07EN | KPI Report (English) | KPI-Report.en.html | 2025-10-03 | ✅ Final | [Link](forms-html/KPI-Report.en.html) |
 | 09 | ثبت ریسک سازمانی | Risk-Register.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Risk-Register.fillable.html) |
 | 10 | ثبت نوآوری سازمانی | Innovation-Log.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Innovation-Log.fillable.html) |
+| 11 | ثبت فرصت‌های سازمانی | Opportunity-Register.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Opportunity-Register.fillable.html) |
 
 
 ## 🛠️ نکات تکمیلی
