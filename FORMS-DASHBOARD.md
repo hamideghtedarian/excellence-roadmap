@@ -23,6 +23,7 @@
 | 11 | ثبت فرصت‌های سازمانی | Opportunity-Register.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Opportunity-Register.fillable.html) |
 | 12 | ارزیابی پروژه | Project-Evaluation.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Project-Evaluation.fillable.html) |
 
+| 13 | تحلیل ذی‌نفعان | Stakeholder-Analysis.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Stakeholder-Analysis.fillable.html) |
 
 ## 🛠️ نکات تکمیلی
 
