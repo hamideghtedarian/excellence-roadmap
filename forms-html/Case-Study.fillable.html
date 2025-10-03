@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت مطالعه موردی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📚 فرم ثبت مطالعه موردی</h2>
+    <label>عنوان مطالعه موردی:</label>
+    <input type="text" name="case_title">
+
+    <label>واحد یا فرآیند مرتبط:</label>
+    <input type="text" name="related_unit">
+
+    <label>شرح وضعیت اولیه:</label>
+    <textarea name="initial_state"></textarea>
+
+    <label>اقدامات انجام‌شده:</label>
+    <textarea name="actions_taken"></textarea>
+
+    <label>نتایج حاصل‌شده:</label>
+    <textarea name="results"></textarea>
+
+    <label>یادگیری‌های کلیدی:</label>
+    <textarea name="key_learnings"></textarea>
+
+    <label>پیشنهاد برای تعمیم یا استفاده مجدد:</label>
+    <textarea name="reuse_suggestion"></textarea>
+
+    <label>نام ثبت‌کننده مطالعه:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
