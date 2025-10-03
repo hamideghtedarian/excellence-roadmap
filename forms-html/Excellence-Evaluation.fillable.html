@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ارزیابی تعالی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏆 فرم ارزیابی تعالی سازمانی</h2>
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+
+    <label>واحد یا حوزه ارزیابی‌شده:</label>
+    <input type="text" name="evaluated_unit">
+
+    <label>مدل مرجع ارزیابی:</label>
+    <select name="reference_model">
+      <option value="EFQM2025">EFQM 2025</option>
+      <option value="ISO9001">ISO 9001</option>
+      <option value="SDG">SDG</option>
+      <option value="custom">سایر</option>
+    </select>
+
+    <label>روش ارزیابی:</label>
+    <select name="evaluation_method">
+      <option value="RADAR">RADAR</option>
+      <option value="Checklist">چک‌لیست</option>
+      <option value="Interview">مصاحبه</option>
+      <option value="DocumentReview">بررسی مستندات</option>
+    </select>
+
+    <label>نقاط قوت شناسایی‌شده:</label>
+    <textarea name="strengths"></textarea>
+
+    <label>زمینه‌های قابل بهبود:</label>
+    <textarea name="areas_for_improvement"></textarea>
+
+    <label>امتیاز یا سطح بلوغ (در صورت وجود):</label>
+    <input type="text" name="score_or_level">
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
