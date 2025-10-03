@@ -14,18 +14,17 @@
 | 04 | ثبت یادگیری سازمانی | Learning-Log.fillable.html | 2025-10-02 | ✅ نهایی | [لینک](forms-html/Learning-Log.fillable.html) |
 | 05 | ثبت پیام دریافتی | Message-Entry.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/Message-Entry.fillable.html) |
 | 06 | ثبت مطالعه موردی | Case-Study.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/Case-Study.fillable.html) 
+| 07 | گزارش شاخص‌های کلیدی عملکرد | KPI-Report.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/KPI-Report.fillable.html
+| 08 | ارزیابی تعالی سازمانی | Excellence-Evaluation.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/Excellence-Evaluation.fillable.html) |
+| 08EN | Excellence Evaluation (English) | Excellence-Evaluation.en.html | 2025-10-03 | ✅ Final | [Link](forms-html/Excellence-Evaluation.en.html) |
+| 07EN | KPI Report (English) | KPI-Report.en.html | 2025-10-03 | ✅ Final | [Link](forms-html/KPI-Report.en.html) |
+| 09 | ثبت ریسک سازمانی | Risk-Register.fillable.html | 2025-10-04 | ✅ نهایی | [لینک](forms-html/Risk-Register.fillable.html) |
 
----
 
 ## 🛠️ نکات تکمیلی
 
 - فرم‌ها قابل تکمیل در مرورگر و قابل چاپ هستند  
 - در صورت نیاز، نسخه‌های انگلیسی یا دو‌زبانه نیز طراحی خواهد شد  
 - برای اتصال به داشبوردهای گزارش‌گیری، می‌توان از Airtable یا Excel استفاده کرد
-- | 07 | گزارش شاخص‌های کلیدی عملکرد | KPI-Report.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/KPI-Report.fillable.html)
-  | 08 | ارزیابی تعالی سازمانی | Excellence-Evaluation.fillable.html | 2025-10-03 | ✅ نهایی | [لینک](forms-html/Excellence-Evaluation.fillable.html) |
-| 08EN | Excellence Evaluation (English) | Excellence-Evaluation.en.html | 2025-10-03 | ✅ Final | [Link](forms-html/Excellence-Evaluation.en.html) |
-
-| 07EN | KPI Report (English) | KPI-Report.en.html | 2025-10-03 | ✅ Final | [Link](forms-html/KPI-Report.en.html) |
 
 
