@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ارزیابی اثربخشی سیستم مدیریت – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📈 فرم ارزیابی اثربخشی سیستم مدیریت</h2>
+
+    <label>نوع سیستم مدیریت:</label>
+    <select name="system_type">
+      <option value="quality">کیفیت (ISO 9001)</option>
+      <option value="environment">محیط‌زیست (ISO 14001)</option>
+      <option value="safety">ایمنی و بهداشت (ISO 45001)</option>
+      <option value="energy">انرژی (ISO 50001)</option>
+      <option value="excellence">تعالی سازمانی (EFQM)</option>
+      <option value="integrated">سیستم یکپارچه</option>
+    </select>
+
+    <label>دوره ارزیابی:</label>
+    <select name="evaluation_period">
+      <option value="monthly">ماهانه</option>
+      <option value="quarterly">فصلی</option>
+      <option value="yearly">سالانه</option>
+    </select>
+
+    <label>واحد یا حوزه تحت ارزیابی:</label>
+    <input type="text" name="evaluated_unit">
+
+    <label>شاخص‌های کلیدی عملکرد (KPI):</label>
+    <textarea name="kpi_summary"></textarea>
+
+    <label>نقاط قوت سیستم مدیریت:</label>
+    <textarea name="system_strengths"></textarea>
+
+    <label>شکاف‌ها یا موارد قابل بهبود:</label>
+    <textarea name="system_gaps"></textarea>
+
+    <label>اقدامات پیشنهادی برای بهبود:</label>
+    <textarea name="improvement_actions"></textarea>
+
+    <label>مسئول پیگیری اقدامات:</label>
+    <input type="text" name="action_owner">
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
