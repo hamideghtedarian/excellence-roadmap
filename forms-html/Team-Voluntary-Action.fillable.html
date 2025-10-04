@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت اقدام داوطلبانه تیمی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🤝 فرم ثبت اقدام داوطلبانه تیمی</h2>
+
+    <label>عنوان فعالیت داوطلبانه:</label>
+    <input type="text" name="action_title">
+
+    <label>شرح فعالیت:</label>
+    <textarea name="action_description"></textarea>
+
+    <label>تاریخ انجام فعالیت:</label>
+    <input type="date" name="action_date">
+
+    <label>محل اجرا:</label>
+    <input type="text" name="location">
+
+    <label>تعداد افراد مشارکت‌کننده:</label>
+    <input type="number" name="participant_count">
+
+    <label>واحد یا تیم اجراکننده:</label>
+    <input type="text" name="executing_team">
+
+    <label>هدف یا انگیزه فعالیت:</label>
+    <textarea name="action_objective"></textarea>
+
+    <label>نوع فعالیت:</label>
+    <select name="action_type">
+      <option value="environmental">محیط‌زیستی</option>
+      <option value="social">اجتماعی</option>
+      <option value="cultural">فرهنگی</option>
+      <option value="educational">آموزشی</option>
+      <option value="humanitarian">انسان‌دوستانه</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>نتایج یا اثرات قابل مشاهده:</label>
+    <textarea name="action_results"></textarea>
+
+    <label>پیشنهادات برای تکرار یا توسعه فعالیت:</label>
+    <textarea name="future_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
