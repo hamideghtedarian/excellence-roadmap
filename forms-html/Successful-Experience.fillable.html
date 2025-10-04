@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت تجربه موفق – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏆 فرم ثبت تجربه موفق</h2>
+
+    <label>عنوان تجربه موفق:</label>
+    <input type="text" name="experience_title">
+
+    <label>شرح تجربه یا اقدام انجام‌شده:</label>
+    <textarea name="experience_description"></textarea>
+
+    <label>واحد یا تیم اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>هدف یا چالش اولیه:</label>
+    <textarea name="initial_challenge"></textarea>
+
+    <label>رویکرد اتخاذ‌شده:</label>
+    <textarea name="approach_taken"></textarea>
+
+    <label>نتایج حاصل‌شده:</label>
+    <textarea name="results_achieved"></textarea>
+
+    <label>شاخص‌های موفقیت:</label>
+    <textarea name="success_indicators"></textarea>
+
+    <label>قابلیت الگوبرداری یا تعمیم:</label>
+    <select name="replicability">
+      <option value="high">بالا</option>
+      <option value="medium">متوسط</option>
+      <option value="low">کم</option>
+    </select>
+
+    <label>پیشنهادات برای استفاده در سایر واحدها:</label>
+    <textarea name="replication_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
