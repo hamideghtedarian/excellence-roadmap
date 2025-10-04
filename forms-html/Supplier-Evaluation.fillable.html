@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ارزیابی عملکرد تأمین‌کننده – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🚚 فرم ارزیابی عملکرد تأمین‌کننده</h2>
+
+    <label>نام تأمین‌کننده یا شرکت:</label>
+    <input type="text" name="supplier_name">
+
+    <label>نوع محصول یا خدمت تأمین‌شده:</label>
+    <input type="text" name="supplied_item">
+
+    <label>دوره ارزیابی:</label>
+    <select name="evaluation_period">
+      <option value="monthly">ماهانه</option>
+      <option value="quarterly">فصلی</option>
+      <option value="yearly">سالانه</option>
+    </select>
+
+    <label>میزان کیفیت محصول/خدمت:</label>
+    <select name="quality_rating">
+      <option value="excellent">عالی</option>
+      <option value="good">خوب</option>
+      <option value="average">متوسط</option>
+      <option value="poor">ضعیف</option>
+    </select>
+
+    <label>میزان تطابق با مشخصات فنی:</label>
+    <select name="spec_compliance">
+      <option value="full">کامل</option>
+      <option value="partial">نسبی</option>
+      <option value="none">عدم تطابق</option>
+    </select>
+
+    <label>میزان پایبندی به زمان تحویل:</label>
+    <select name="delivery_rating">
+      <option value="on_time">به‌موقع</option>
+      <option value="delayed">با تأخیر</option>
+      <option value="unacceptable">غیرقابل قبول</option>
+    </select>
+
+    <label>میزان همکاری و پاسخگویی:</label>
+    <select name="cooperation_rating">
+      <option value="excellent">عالی</option>
+      <option value="good">خوب</option>
+      <option value="average">متوسط</option>
+      <option value="poor">ضعیف</option>
+    </select>
+
+    <label>نقاط قوت تأمین‌کننده:</label>
+    <textarea name="supplier_strengths"></textarea>
+
+    <label>موارد قابل بهبود:</label>
+    <textarea name="supplier_improvements"></textarea>
+
+    <label>اقدامات پیشنهادی یا تصمیمات سازمان:</label>
+    <textarea name="organization_decisions"></textarea>
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
