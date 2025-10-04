@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش مسئولیت اجتماعی پروژه – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🌍 فرم گزارش مسئولیت اجتماعی پروژه</h2>
+
+    <label>عنوان پروژه:</label>
+    <input type="text" name="project_title">
+
+    <label>واحد یا سازمان اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>تاریخ شروع و پایان پروژه:</label>
+    <input type="text" name="project_dates" placeholder="مثال: از 1404/01/15 تا 1404/04/30">
+
+    <label>اهداف اجتماعی یا محیط‌زیستی پروژه:</label>
+    <textarea name="project_goals"></textarea>
+
+    <label>اقدامات انجام‌شده در حوزه مسئولیت اجتماعی:</label>
+    <textarea name="csr_actions"></textarea>
+
+    <label>گروه‌های ذی‌نفع تحت تأثیر:</label>
+    <textarea name="stakeholder_groups"></textarea>
+
+    <label>نتایج یا اثرات قابل مشاهده:</label>
+    <textarea name="project_impacts"></textarea>
+
+    <label>میزان مشارکت جامعه یا کارکنان:</label>
+    <textarea name="participation_level"></textarea>
+
+    <label>چالش‌ها و درس‌آموخته‌ها:</label>
+    <textarea name="lessons_learned"></textarea>
+
+    <label>پیشنهادات برای پروژه‌های آینده:</label>
+    <textarea name="future_suggestions"></textarea>
+
+    <label>نام گزارش‌دهنده:</label>
+    <input type="text" name="reporter_name">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
