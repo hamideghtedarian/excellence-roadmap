@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت اقدام نوآورانه – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>💡 فرم ثبت اقدام نوآورانه</h2>
+
+    <label>عنوان اقدام نوآورانه:</label>
+    <input type="text" name="innovation_title">
+
+    <label>شرح ایده یا اقدام:</label>
+    <textarea name="innovation_description"></textarea>
+
+    <label>منشأ ایده یا نیاز:</label>
+    <select name="innovation_source">
+      <option value="employee">کارکنان</option>
+      <option value="customer">مشتریان</option>
+      <option value="benchmarking">الگوگیری</option>
+      <option value="research">تحقیقات و توسعه</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>واحد یا تیم اجراکننده:</label>
+    <input type="text" name="executing_team">
+
+    <label>هدف یا ارزش افزوده مورد انتظار:</label>
+    <textarea name="expected_value"></textarea>
+
+    <label>نوع نوآوری:</label>
+    <select name="innovation_type">
+      <option value="product">محصول</option>
+      <option value="process">فرآیند</option>
+      <option value="service">خدمت</option>
+      <option value="organizational">سازمانی</option>
+      <option value="digital">دیجیتال</option>
+    </select>
+
+    <label>وضعیت اجرا:</label>
+    <select name="implementation_status">
+      <option value="idea">در حد ایده</option>
+      <option value="pilot">آزمایشی</option>
+      <option value="implemented">اجرا شده</option>
+      <option value="scaled">توسعه یافته</option>
+    </select>
+
+    <label>نتایج یا دستاوردهای اولیه:</label>
+    <textarea name="initial_results"></textarea>
+
+    <label>پیشنهادات برای توسعه بیشتر:</label>
+    <textarea name="development_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
