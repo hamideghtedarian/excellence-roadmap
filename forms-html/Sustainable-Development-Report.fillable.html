@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش مشارکت در توسعه پایدار – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🌐 فرم گزارش مشارکت در توسعه پایدار</h2>
+
+    <label>عنوان پروژه یا اقدام:</label>
+    <input type="text" name="project_title">
+
+    <label>واحد یا سازمان اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>تاریخ اجرا:</label>
+    <input type="text" name="execution_date" placeholder="مثال: از 1404/02/01 تا 1404/03/15">
+
+    <label>هدف توسعه پایدار مرتبط:</label>
+    <select name="sdg_goal">
+      <option value="sdg3">سلامت و رفاه (SDG 3)</option>
+      <option value="sdg4">آموزش باکیفیت (SDG 4)</option>
+      <option value="sdg6">آب پاک و بهداشت (SDG 6)</option>
+      <option value="sdg7">انرژی پاک (SDG 7)</option>
+      <option value="sdg9">صنعت، نوآوری، زیرساخت (SDG 9)</option>
+      <option value="sdg11">شهرها و جوامع پایدار (SDG 11)</option>
+      <option value="sdg12">مصرف و تولید مسئولانه (SDG 12)</option>
+      <option value="sdg13">مقابله با تغییرات اقلیمی (SDG 13)</option>
+      <option value="sdg17">مشارکت جهانی (SDG 17)</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>شرح فعالیت یا مشارکت:</label>
+    <textarea name="activity_description"></textarea>
+
+    <label>گروه‌های ذی‌نفع درگیر:</label>
+    <textarea name="stakeholders_involved"></textarea>
+
+    <label>نتایج یا اثرات قابل مشاهده:</label>
+    <textarea name="outcomes"></textarea>
+
+    <label>شاخص‌های سنجش اثرگذاری:</label>
+    <textarea name="impact_indicators"></textarea>
+
+    <label>پیشنهادات برای بهبود یا توسعه فعالیت:</label>
+    <textarea name="improvement_suggestions"></textarea>
+
+    <label>نام گزارش‌دهنده:</label>
+    <input type="text" name="reporter_name">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
