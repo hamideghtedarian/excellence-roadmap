@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت اقدام تحول‌آفرین – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🚀 فرم ثبت اقدام تحول‌آفرین</h2>
+
+    <label>عنوان اقدام تحول‌آفرین:</label>
+    <input type="text" name="action_title">
+
+    <label>شرح اقدام یا پروژه:</label>
+    <textarea name="action_description"></textarea>
+
+    <label>واحد یا حوزه اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>نوع تحول ایجادشده:</label>
+    <select name="transformation_type">
+      <option value="strategic">استراتژیک</option>
+      <option value="operational">عملیاتی</option>
+      <option value="cultural">فرهنگی</option>
+      <option value="digital">دیجیتال</option>
+      <option value="structural">ساختاری</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>چالش یا وضعیت اولیه:</label>
+    <textarea name="initial_state"></textarea>
+
+    <label>رویکرد یا راه‌حل اتخاذشده:</label>
+    <textarea name="approach_taken"></textarea>
+
+    <label>نتایج حاصل‌شده:</label>
+    <textarea name="results_achieved"></textarea>
+
+    <label>شاخص‌های سنجش تحول:</label>
+    <textarea name="impact_indicators"></textarea>
+
+    <label>میزان پایداری و تثبیت تحول:</label>
+    <select name="sustainability_level">
+      <option value="high">بالا</option>
+      <option value="medium">متوسط</option>
+      <option value="low">کم</option>
+    </select>
+
+    <label>پیشنهادات برای تعمیم یا توسعه:</label>
+    <textarea name="replication_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
