@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش تعامل با جامعه محلی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏘️ فرم گزارش تعامل با جامعه محلی</h2>
+
+    <label>عنوان فعالیت یا پروژه:</label>
+    <input type="text" name="activity_title">
+
+    <label>واحد یا سازمان اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>تاریخ اجرا:</label>
+    <input type="text" name="execution_date" placeholder="مثال: از 1404/03/01 تا 1404/03/10">
+
+    <label>محل اجرا یا جامعه هدف:</label>
+    <input type="text" name="target_community">
+
+    <label>هدف تعامل:</label>
+    <textarea name="engagement_objective"></textarea>
+
+    <label>نوع فعالیت:</label>
+    <select name="activity_type">
+      <option value="consultation">مشاوره و شنیدن نظرات</option>
+      <option value="support">حمایت و کمک‌رسانی</option>
+      <option value="education">آموزش و آگاهی‌بخشی</option>
+      <option value="collaboration">همکاری مشترک</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>گروه‌های ذی‌نفع درگیر:</label>
+    <textarea name="stakeholders_involved"></textarea>
+
+    <label>نتایج یا اثرات قابل مشاهده:</label>
+    <textarea name="outcomes"></textarea>
+
+    <label>بازخورد دریافت‌شده از جامعه:</label>
+    <textarea name="community_feedback"></textarea>
+
+    <label>پیشنهادات برای بهبود تعامل:</label>
+    <textarea name="improvement_suggestions"></textarea>
+
+    <label>نام گزارش‌دهنده:</label>
+    <input type="text" name="reporter_name">
+
+    <label>تاریخ ثبت گزارش:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
