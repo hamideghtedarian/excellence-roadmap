@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم گزارش اثربخشی ارتباطات بیرونی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📡 فرم گزارش اثربخشی ارتباطات بیرونی</h2>
+
+    <label>واحد یا تیم مسئول ارتباطات:</label>
+    <input type="text" name="communication_unit">
+
+    <label>دوره ارزیابی:</label>
+    <select name="evaluation_period">
+      <option value="monthly">ماهانه</option>
+      <option value="quarterly">فصلی</option>
+      <option value="yearly">سالانه</option>
+    </select>
+
+    <label>کانال‌های ارتباطی مورد استفاده:</label>
+    <textarea name="communication_channels" placeholder="مثال: وب‌سایت، ایمیل، رسانه‌ها، جلسات حضوری، شبکه‌های اجتماعی"></textarea>
+
+    <label>گروه‌های ذی‌نفع هدف:</label>
+    <textarea name="target_stakeholders"></textarea>
+
+    <label>میزان وضوح و شفافیت پیام‌ها:</label>
+    <select name="clarity_rating">
+      <option value="excellent">عالی</option>
+      <option value="good">خوب</option>
+      <option value="average">متوسط</option>
+      <option value="poor">ضعیف</option>
+    </select>
+
+    <label>میزان پاسخ‌گویی و تعامل:</label>
+    <select name="responsiveness_rating">
+      <option value="excellent">عالی</option>
+      <option value="good">خوب</option>
+      <option value="average">متوسط</option>
+      <option value="poor">ضعیف</option>
+    </select>
+
+    <label>بازخوردهای دریافت‌شده:</label>
+    <textarea name="received_feedback"></textarea>
+
+    <label>نقاط قوت ارتباطات بیرونی:</label>
+    <textarea name="strengths"></textarea>
+
+    <label>موارد قابل بهبود:</label>
+    <textarea name="improvement_areas"></textarea>
+
+    <label>پیشنهادات برای ارتقاء ارتباطات:</label>
+    <textarea name="future_suggestions"></textarea>
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
