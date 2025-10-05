@@ -55,6 +55,7 @@
 | 43 | ثبت تجربه یادگیری سازمانی | Organizational-Learning.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Organizational-Learning.fillable.html) |
 | 44 | گزارش مشارکت کارکنان در تصمیم‌سازی | Employee-Participation.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Employee-Participation.fillable.html) |
 | 45 | ثبت اقدام اصلاحی و پیشگیرانه | Corrective-Preventive-Action.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Corrective-Preventive-Action.fillable.html) |
+| 46 | گزارش اثربخشی جلسات | Meeting-Effectiveness.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Meeting-Effectiveness.fillable.html) |
 
 ## 🛠️ نکات تکمیلی
 
