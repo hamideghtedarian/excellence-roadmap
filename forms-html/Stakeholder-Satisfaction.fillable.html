@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ارزیابی رضایت ذی‌نفعان – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🤝 فرم ارزیابی رضایت ذی‌نفعان</h2>
+
+    <label>نوع ذی‌نفع:</label>
+    <select name="stakeholder_type">
+      <option value="customer">مشتری</option>
+      <option value="supplier">تأمین‌کننده</option>
+      <option value="employee">کارکنان</option>
+      <option value="community">جامعه محلی</option>
+      <option value="partner">شرکای تجاری</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>نام یا گروه ذی‌نفع:</label>
+    <input type="text" name="stakeholder_name">
+
+    <label>واحد یا حوزه مرتبط:</label>
+    <input type="text" name="related_unit">
+
+    <label>موضوع تعامل یا خدمت ارائه‌شده:</label>
+    <textarea name="interaction_subject"></textarea>
+
+    <label>میزان رضایت کلی:</label>
+    <select name="overall_satisfaction">
+      <option value="very_satisfied">بسیار راضی</option>
+      <option value="satisfied">راضی</option>
+      <option value="neutral">خنثی</option>
+      <option value="dissatisfied">ناراضی</option>
+      <option value="very_dissatisfied">بسیار ناراضی</option>
+    </select>
+
+    <label>نقاط قوت تجربه ذی‌نفع:</label>
+    <textarea name="strengths"></textarea>
+
+    <label>موارد نارضایتی یا قابل بهبود:</label>
+    <textarea name="issues_or_improvements"></textarea>
+
+    <label>پیشنهادات ارائه‌شده توسط ذی‌نفع:</label>
+    <textarea name="stakeholder_suggestions"></textarea>
+
+    <label>اقدامات پیگیری‌شده توسط سازمان:</label>
+    <textarea name="followup_actions"></textarea>
+
+    <label>نام ارزیاب:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>تاریخ ارزیابی:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
