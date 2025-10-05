@@ -56,6 +56,7 @@
 | 44 | گزارش مشارکت کارکنان در تصمیم‌سازی | Employee-Participation.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Employee-Participation.fillable.html) |
 | 45 | ثبت اقدام اصلاحی و پیشگیرانه | Corrective-Preventive-Action.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Corrective-Preventive-Action.fillable.html) |
 | 46 | گزارش اثربخشی جلسات | Meeting-Effectiveness.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Meeting-Effectiveness.fillable.html) |
+| 47 | ارزیابی رضایت ذی‌نفعان | Stakeholder-Satisfaction.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Stakeholder-Satisfaction.fillable.html) |
 
 ## 🛠️ نکات تکمیلی
 
