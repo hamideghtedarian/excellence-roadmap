@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت اقدام نوآورانه – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>💡 فرم ثبت اقدام نوآورانه</h2>
+
+    <label>عنوان اقدام یا پروژه نوآورانه:</label>
+    <input type="text" name="innovation_title">
+
+    <label>شرح ایده یا اقدام نوآورانه:</label>
+    <textarea name="innovation_description"></textarea>
+
+    <label>واحد یا تیم اجراکننده:</label>
+    <input type="text" name="executing_unit">
+
+    <label>نوع نوآوری:</label>
+    <select name="innovation_type">
+      <option value="product">محصول</option>
+      <option value="process">فرآیند</option>
+      <option value="business_model">مدل کسب‌وکار</option>
+      <option value="service">خدمت</option>
+      <option value="organizational">سازمانی/فرهنگی</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>مسئله یا نیاز اولیه:</label>
+    <textarea name="initial_need"></textarea>
+
+    <label>رویکرد یا راه‌حل نوآورانه:</label>
+    <textarea name="innovative_solution"></textarea>
+
+    <label>نتایج یا دستاوردهای حاصل‌شده:</label>
+    <textarea name="achieved_results"></textarea>
+
+    <label>شاخص‌های سنجش نوآوری:</label>
+    <textarea name="innovation_indicators"></textarea>
+
+    <label>میزان اثربخشی و ارزش‌آفرینی:</label>
+    <select name="impact_level">
+      <option value="high">زیاد</option>
+      <option value="medium">متوسط</option>
+      <option value="low">کم</option>
+    </select>
+
+    <label>پیشنهادات برای توسعه یا تعمیم:</label>
+    <textarea name="replication_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
