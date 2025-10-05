@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت تجربه یادگیری سازمانی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📚 فرم ثبت تجربه یادگیری سازمانی</h2>
+
+    <label>عنوان تجربه یا آموخته:</label>
+    <input type="text" name="learning_title">
+
+    <label>شرح تجربه یا موقعیت یادگیری:</label>
+    <textarea name="learning_description"></textarea>
+
+    <label>واحد یا تیم مرتبط:</label>
+    <input type="text" name="related_unit">
+
+    <label>منشأ تجربه:</label>
+    <select name="learning_source">
+      <option value="project">پروژه</option>
+      <option value="success">موفقیت</option>
+      <option value="failure">شکست</option>
+      <option value="feedback">بازخورد</option>
+      <option value="audit">ممیزی</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>آموخته‌های کلیدی:</label>
+    <textarea name="key_learnings"></textarea>
+
+    <label>تأثیر بر عملکرد یا تصمیم‌گیری:</label>
+    <textarea name="impact_on_decisions"></textarea>
+
+    <label>اقدامات انجام‌شده در پی یادگیری:</label>
+    <textarea name="followup_actions"></textarea>
+
+    <label>قابلیت تعمیم یا الگوبرداری:</label>
+    <select name="replicability">
+      <option value="high">بالا</option>
+      <option value="medium">متوسط</option>
+      <option value="low">کم</option>
+    </select>
+
+    <label>پیشنهادات برای استفاده در سایر واحدها:</label>
+    <textarea name="replication_suggestions"></textarea>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="registrar_name">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="registration_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
