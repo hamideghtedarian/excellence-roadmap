@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Executive Performance Review – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏛️ Executive Performance Review – Transformation Leadership</h2>
+
+    <label>Executive Name:</label>
+    <input type="text" name="executive_name">
+
+    <label>Position or Role:</label>
+    <input type="text" name="executive_role">
+
+    <label>Review Period:</label>
+    <input type="text" name="review_period">
+
+    <label>Strategic Vision and Alignment (1–5):</label>
+    <select name="strategic_vision">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>Change Leadership and Adaptability (1–5):</label>
+    <select name="change_leadership">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>Innovation and Continuous Improvement (1–5):</label>
+    <select name="innovation">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>People Empowerment and Culture Building (1–5):</label>
+    <select name="people_empowerment">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>Stakeholder Engagement and Influence (1–5):</label>
+    <select name="stakeholder_engagement">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>Ethical Leadership and Governance (1–5):</label>
+    <select name="ethics_governance">
+      <option value="5">5 – Outstanding</option>
+      <option value="4">4 – Strong</option>
+      <option value="3">3 – Acceptable</option>
+      <option value="2">2 – Weak</option>
+      <option value="1">1 – Poor</option>
+    </select>
+
+    <label>Key Achievements:</label>
+    <textarea name="key_achievements"></textarea>
+
+    <label>Areas for Development:</label>
+    <textarea name="areas_development"></textarea>
+
+    <label>Overall Transformation Score (auto-calculated):</label>
+    <input type="text" name="overall_score" placeholder="Sum or average of above scores">
+
+    <label>Reviewer Name:</label>
+    <input type="text" name="reviewer_name">
+
+    <label>Review Date:</label>
+    <input type="date" name="review_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
