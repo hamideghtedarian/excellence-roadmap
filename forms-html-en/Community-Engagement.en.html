@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Engagement Report – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏘️ Community Engagement Report Form</h2>
+
+    <label>Title of the Activity or Initiative:</label>
+    <input type="text" name="activity_title">
+
+    <label>Organizing Unit or Team:</label>
+    <input type="text" name="organizing_unit">
+
+    <label>Date of Engagement:</label>
+    <input type="text" name="engagement_date" placeholder="e.g. From 2025-09-01 to 2025-09-10">
+
+    <label>Type of Community Engagement:</label>
+    <select name="engagement_type">
+      <option value="volunteering">Volunteering</option>
+      <option value="education">Educational Outreach</option>
+      <option value="environment">Environmental Action</option>
+      <option value="health">Health & Wellness</option>
+      <option value="partnership">Local Partnership</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Target Community or Stakeholders:</label>
+    <textarea name="target_community"></textarea>
+
+    <label>Description of Activities:</label>
+    <textarea name="activity_description"></textarea>
+
+    <label>Number of Participants:</label>
+    <input type="number" name="participant_count">
+
+    <label>Observed Outcomes or Impacts:</label>
+    <textarea name="observed_outcomes"></textarea>
+
+    <label>Feedback from the Community:</label>
+    <textarea name="community_feedback"></textarea>
+
+    <label>Strengths of the Engagement:</label>
+    <textarea name="engagement_strengths"></textarea>
+
+    <label>Areas for Improvement:</label>
+    <textarea name="improvement_areas"></textarea>
+
+    <label>Suggestions for Future Engagements:</label>
+    <textarea name="future_suggestions"></textarea>
+
+    <label>Report Author:</label>
+    <input type="text" name="reporter_name">
+
+    <label>Report Date:</label>
+    <input type="date" name="report_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
