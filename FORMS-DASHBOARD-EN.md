@@ -24,6 +24,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 45 | Corrective & Preventive Action Report | Corrective-Preventive-Action.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Corrective-Preventive-Action.en.html) |
 | 46 | Meeting Effectiveness Evaluation | Meeting-Effectiveness.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Meeting-Effectiveness.en.html) |
 | 47 | Stakeholder Satisfaction Evaluation | Stakeholder-Satisfaction.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Stakeholder-Satisfaction.en.html) |
+| 48 | Innovative Action Report | Innovative-Action.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Innovative-Action.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
