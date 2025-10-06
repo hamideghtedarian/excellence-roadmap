@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم بازخورد فرم‌های تعالی – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📝 فرم بازخورد فرم‌های تعالی</h2>
+
+    <label>نام شما:</label>
+    <input type="text" name="user_name">
+
+    <label>سازمان یا شهر محل فعالیت:</label>
+    <input type="text" name="organization">
+
+    <label>کدام فرم‌ها را استفاده کرده‌اید؟</label>
+    <textarea name="form_used" placeholder="مثلاً: گزارش توسعه پایدار، ارزیابی جلسه"></textarea>
+
+    <label>میزان مفید بودن فرم‌ها برای شما:</label>
+    <select name="usefulness_rating">
+      <option value="very_useful">بسیار مفید</option>
+      <option value="useful">مفید</option>
+      <option value="neutral">خنثی</option>
+      <option value="not_useful">غیرمفید</option>
+    </select>
+
+    <label>نکات مثبت فرم‌ها از دید شما:</label>
+    <textarea name="positive_feedback"></textarea>
+
+    <label>چه مواردی نیاز به بهبود دارند؟</label>
+    <textarea name="improvement_suggestions"></textarea>
+
+    <label>آیا این فرم‌ها را به دیگران توصیه می‌کنید؟</label>
+    <select name="recommendation">
+      <option value="yes">بله</option>
+      <option value="maybe">شاید</option>
+      <option value="no">خیر</option>
+    </select>
+
+    <label>نظرات یا پیشنهادات تکمیلی:</label>
+    <textarea name="additional_comments"></textarea>
+
+    <label>تاریخ ثبت بازخورد:</label>
+    <input type="date" name="feedback_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
