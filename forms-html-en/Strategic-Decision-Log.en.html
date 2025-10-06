@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strategic Decision Log – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📘 Strategic Decision Log</h2>
+
+    <label>Decision Title:</label>
+    <input type="text" name="decision_title">
+
+    <label>Decision Reference Code:</label>
+    <input type="text" name="decision_code">
+
+    <label>Date of Decision:</label>
+    <input type="date" name="decision_date">
+
+    <label>Decision Maker(s):</label>
+    <textarea name="decision_makers" placeholder="Names or roles involved"></textarea>
+
+    <label>Strategic Objective Supported:</label>
+    <textarea name="strategic_objective"></textarea>
+
+    <label>Context and Background:</label>
+    <textarea name="context_background"></textarea>
+
+    <label>Options Considered:</label>
+    <textarea name="options_considered"></textarea>
+
+    <label>Final Decision Taken:</label>
+    <textarea name="final_decision"></textarea>
+
+    <label>Rationale for Decision:</label>
+    <textarea name="decision_rationale"></textarea>
+
+    <label>Expected Impact:</label>
+    <textarea name="expected_impact"></textarea>
+
+    <label>Risks and Mitigation Plans:</label>
+    <textarea name="risks_mitigation"></textarea>
+
+    <label>Implementation Owner:</label>
+    <input type="text" name="implementation_owner">
+
+    <label>Follow-up Actions:</label>
+    <textarea name="follow_up_actions"></textarea>
+
+    <label>Review Date (if applicable):</label>
+    <input type="date" name="review_date">
+
+    <label>Logged By:</label>
+    <input type="text" name="logged_by">
+
+    <label>Log Entry Date:</label>
+    <input type="date" name="log_entry_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
