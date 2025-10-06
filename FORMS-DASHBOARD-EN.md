@@ -30,6 +30,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | — | International Feedback Form | International-Feedback.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/International-Feedback.en.html) |
 | — | Excellence Evaluation Form | Excellence-Evaluation.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Excellence-Evaluation.en.html) |
 | — | KPI Report Form | KPI-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/KPI-Report.en.html) |
+| 51 | Sustainable Development Report | Sustainable-Development-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Sustainable-Development-Report.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
