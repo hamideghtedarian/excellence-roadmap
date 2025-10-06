@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback on Excellence Forms – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🌍 Feedback on Excellence Forms</h2>
+
+    <label>Your Name:</label>
+    <input type="text" name="user_name">
+
+    <label>Organization or Country:</label>
+    <input type="text" name="organization">
+
+    <label>Which form(s) did you use?</label>
+    <textarea name="form_used" placeholder="e.g. Sustainable Development Report, Meeting Evaluation"></textarea>
+
+    <label>How useful were the forms for your context?</label>
+    <select name="usefulness_rating">
+      <option value="very_useful">Very Useful</option>
+      <option value="useful">Useful</option>
+      <option value="neutral">Neutral</option>
+      <option value="not_useful">Not Useful</option>
+    </select>
+
+    <label>What did you like most about the forms?</label>
+    <textarea name="positive_feedback"></textarea>
+
+    <label>What could be improved?</label>
+    <textarea name="improvement_suggestions"></textarea>
+
+    <label>Would you recommend these forms to others?</label>
+    <select name="recommendation">
+      <option value="yes">Yes</option>
+      <option value="maybe">Maybe</option>
+      <option value="no">No</option>
+    </select>
+
+    <label>Any additional comments or suggestions:</label>
+    <textarea name="additional_comments"></textarea>
+
+    <label>Date of Feedback:</label>
+    <input type="date" name="feedback_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
