@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stakeholder Satisfaction Evaluation – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🤝 Stakeholder Satisfaction Evaluation Form</h2>
+
+    <label>Stakeholder Group or Type:</label>
+    <input type="text" name="stakeholder_type">
+
+    <label>Evaluation Period:</label>
+    <input type="text" name="evaluation_period" placeholder="e.g. Q3 2025">
+
+    <label>Method of Data Collection:</label>
+    <select name="data_collection_method">
+      <option value="survey">Survey</option>
+      <option value="interview">Interview</option>
+      <option value="feedback_form">Feedback Form</option>
+      <option value="online">Online Platform</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Key Topics Evaluated:</label>
+    <textarea name="evaluation_topics" placeholder="e.g. Responsiveness, Quality, Communication, Value"></textarea>
+
+    <label>Overall Satisfaction Level:</label>
+    <select name="satisfaction_level">
+      <option value="very_satisfied">Very Satisfied</option>
+      <option value="satisfied">Satisfied</option>
+      <option value="neutral">Neutral</option>
+      <option value="dissatisfied">Dissatisfied</option>
+      <option value="very_dissatisfied">Very Dissatisfied</option>
+    </select>
+
+    <label>Strengths Identified:</label>
+    <textarea name="strengths_identified"></textarea>
+
+    <label>Areas for Improvement:</label>
+    <textarea name="improvement_areas"></textarea>
+
+    <label>Suggestions from Stakeholders:</label>
+    <textarea name="stakeholder_suggestions"></textarea>
+
+    <label>Actions Taken or Planned:</label>
+    <textarea name="actions_taken"></textarea>
+
+    <label>Evaluator Name:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>Evaluation Date:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
