@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>External Communication Evaluation – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📣 External Communication Evaluation Form</h2>
+
+    <label>Communication Title or Campaign:</label>
+    <input type="text" name="communication_title">
+
+    <label>Responsible Unit or Department:</label>
+    <input type="text" name="responsible_unit">
+
+    <label>Date of Communication:</label>
+    <input type="date" name="communication_date">
+
+    <label>Target Audience:</label>
+    <textarea name="target_audience"></textarea>
+
+    <label>Communication Channel:</label>
+    <select name="communication_channel">
+      <option value="email">Email</option>
+      <option value="website">Website</option>
+      <option value="social_media">Social Media</option>
+      <option value="press_release">Press Release</option>
+      <option value="event">Public Event</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Objectives of the Communication:</label>
+    <textarea name="communication_objectives"></textarea>
+
+    <label>Key Messages Delivered:</label>
+    <textarea name="key_messages"></textarea>
+
+    <label>Audience Engagement Level:</label>
+    <select name="engagement_level">
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+
+    <label>Feedback Received:</label>
+    <textarea name="feedback_received"></textarea>
+
+    <label>Effectiveness Evaluation:</label>
+    <select name="effectiveness_level">
+      <option value="very_effective">Very Effective</option>
+      <option value="effective">Effective</option>
+      <option value="partially_effective">Partially Effective</option>
+      <option value="ineffective">Ineffective</option>
+    </select>
+
+    <label>Strengths of the Communication:</label>
+    <textarea name="communication_strengths"></textarea>
+
+    <label>Areas for Improvement:</label>
+    <textarea name="improvement_areas"></textarea>
+
+    <label>Suggestions for Future Communications:</label>
+    <textarea name="future_suggestions"></textarea>
+
+    <label>Evaluator Name:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>Evaluation Date:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
