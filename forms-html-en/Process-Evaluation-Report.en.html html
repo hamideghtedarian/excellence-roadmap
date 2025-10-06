@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Process Evaluation Report – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🔍 Process Evaluation Report</h2>
+
+    <label>Process Name:</label>
+    <input type="text" name="process_name">
+
+    <label>Process Owner:</label>
+    <input type="text" name="process_owner">
+
+    <label>Evaluation Period:</label>
+    <input type="text" name="evaluation_period" placeholder="e.g. Q2 2025, Fiscal Year 2024">
+
+    <label>Process Objectives:</label>
+    <textarea name="process_objectives"></textarea>
+
+    <label>Inputs and Resources:</label>
+    <textarea name="inputs_resources"></textarea>
+
+    <label>Key Activities:</label>
+    <textarea name="key_activities"></textarea>
+
+    <label>Outputs and Deliverables:</label>
+    <textarea name="outputs_deliverables"></textarea>
+
+    <label>Performance Indicators (KPIs):</label>
+    <textarea name="performance_indicators"></textarea>
+
+    <label>Strengths Observed:</label>
+    <textarea name="strengths"></textarea>
+
+    <label>Weaknesses or Gaps:</label>
+    <textarea name="weaknesses"></textarea>
+
+    <label>Improvement Opportunities:</label>
+    <textarea name="improvement_opportunities"></textarea>
+
+    <label>Corrective Actions Taken:</label>
+    <textarea name="corrective_actions"></textarea>
+
+    <label>Evaluation Summary:</label>
+    <textarea name="evaluation_summary"></textarea>
+
+    <label>Evaluator's Name:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>Evaluation Date:</label>
+    <input type="date" name="evaluation_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
