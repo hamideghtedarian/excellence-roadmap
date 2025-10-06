@@ -31,6 +31,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | — | Excellence Evaluation Form | Excellence-Evaluation.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Excellence-Evaluation.en.html) |
 | — | KPI Report Form | KPI-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/KPI-Report.en.html) |
 | 51 | Sustainable Development Report | Sustainable-Development-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Sustainable-Development-Report.en.html) |
+| 52 | Unit Performance Report | Unit-Performance-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Unit-Performance-Report.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
