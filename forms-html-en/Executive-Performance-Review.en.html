@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Executive Performance Review – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🏛️ Executive Performance Review</h2>
+
+    <label>Executive Name:</label>
+    <input type="text" name="executive_name">
+
+    <label>Position or Role:</label>
+    <input type="text" name="executive_role">
+
+    <label>Review Period:</label>
+    <input type="text" name="review_period" placeholder="e.g. Fiscal Year 2025">
+
+    <label>Strategic Leadership:</label>
+    <textarea name="strategic_leadership" placeholder="Vision, alignment with strategy, long-term thinking"></textarea>
+
+    <label>Operational Excellence:</label>
+    <textarea name="operational_excellence" placeholder="Efficiency, process improvement, resource management"></textarea>
+
+    <label>People Leadership:</label>
+    <textarea name="people_leadership" placeholder="Team development, empowerment, communication"></textarea>
+
+    <label>Stakeholder Engagement:</label>
+    <textarea name="stakeholder_engagement" placeholder="External relations, partnerships, reputation"></textarea>
+
+    <label>Innovation and Change Management:</label>
+    <textarea name="innovation_change" placeholder="Initiatives, adaptability, transformation leadership"></textarea>
+
+    <label>Ethics and Governance:</label>
+    <textarea name="ethics_governance" placeholder="Integrity, compliance, transparency"></textarea>
+
+    <label>Key Achievements:</label>
+    <textarea name="key_achievements"></textarea>
+
+    <label>Areas for Improvement:</label>
+    <textarea name="areas_improvement"></textarea>
+
+    <label>Overall Performance Rating:</label>
+    <select name="performance_rating">
+      <option value="outstanding">Outstanding</option>
+      <option value="exceeds_expectations">Exceeds Expectations</option>
+      <option value="meets_expectations">Meets Expectations</option>
+      <option value="needs_improvement">Needs Improvement</option>
+    </select>
+
+    <label>Reviewer Name:</label>
+    <input type="text" name="reviewer_name">
+
+    <label>Review Date:</label>
+    <input type="date" name="review_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
