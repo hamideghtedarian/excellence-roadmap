@@ -36,6 +36,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 54 | Process Evaluation Report | Process-Evaluation-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Process-Evaluation-Report.en.html) |
 | 55 | Meeting Evaluation Form | Meeting-Evaluation.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Meeting-Evaluation.en.html) |
 | 56 | Idea Submission Form | Idea-Submission.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Idea-Submission.en.html) |
+| 57 | Project Progress Report | Project-Progress-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Project-Progress-Report.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
