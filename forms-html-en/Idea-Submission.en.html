@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Idea Submission Form – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>💡 Idea Submission Form</h2>
+
+    <label>Submitter's Name:</label>
+    <input type="text" name="submitter_name">
+
+    <label>Department or Unit:</label>
+    <input type="text" name="department">
+
+    <label>Date of Submission:</label>
+    <input type="date" name="submission_date">
+
+    <label>Title of the Idea:</label>
+    <input type="text" name="idea_title">
+
+    <label>Brief Description of the Idea:</label>
+    <textarea name="idea_description"></textarea>
+
+    <label>Problem or Opportunity Addressed:</label>
+    <textarea name="problem_addressed"></textarea>
+
+    <label>Expected Benefits:</label>
+    <textarea name="expected_benefits"></textarea>
+
+    <label>Required Resources or Support:</label>
+    <textarea name="required_resources"></textarea>
+
+    <label>Potential Risks or Challenges:</label>
+    <textarea name="potential_risks"></textarea>
+
+    <label>Suggested Implementation Steps:</label>
+    <textarea name="implementation_steps"></textarea>
+
+    <label>Has this idea been tested or piloted?</label>
+    <select name="tested_status">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="partially">Partially</option>
+    </select>
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
