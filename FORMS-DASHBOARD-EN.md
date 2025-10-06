@@ -18,6 +18,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 48 | Innovative Action Report | Innovative-Action.en.html | — | ⏳ Pending | *(pending)* |
 | 49 | Project Risk Assessment | Project-Risk-Assessment.en.html | — | ⏳ Pending | *(pending)* |
 | 50 | External Communication Evaluation | External-Communication-Evaluation.en.html | — | ⏳ Pending | *(pending)* |
+| 42 | Community Engagement Report | Community-Engagement.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Community-Engagement.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
