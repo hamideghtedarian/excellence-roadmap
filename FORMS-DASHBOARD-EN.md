@@ -38,6 +38,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 55 | Meeting Evaluation Form | Meeting-Evaluation.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Meeting-Evaluation.en.html) |
 | 56 | Idea Submission Form | Idea-Submission.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Idea-Submission.en.html) |
 | 57 | Project Progress Report | Project-Progress-Report.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Project-Progress-Report.en.html) |
+| 59 | Strategic Initiative Evaluation | Strategic-Initiative-Evaluation.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Strategic-Initiative-Evaluation.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
