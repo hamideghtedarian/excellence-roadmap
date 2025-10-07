@@ -54,6 +54,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 71 | Learning Needs Assessment | Learning-Needs-Assessment.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Learning-Needs-Assessment.en.html) |
 | 72 | Post-Training Reflection | Post-Training-Reflection.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Post-Training-Reflection.en.html) |
 | 73 | Knowledge Transfer Log | Knowledge-Transfer-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Knowledge-Transfer-Log.en.html) |
+| 74 | Project Evaluation Summary | Project-Evaluation-Summary.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Project-Evaluation-Summary.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
