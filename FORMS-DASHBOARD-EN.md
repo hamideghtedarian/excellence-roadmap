@@ -61,6 +61,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 78 | Supplier Evaluation Checklist | Supplier-Evaluation-Checklist.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Supplier-Evaluation-Checklist.en.html) |
 | 79 | Innovation Submission Form | Innovation-Submission-Form.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Innovation-Submission-Form.en.html) |
 | 80 | Digital Tool Usage Log | Digital-Tool-Usage-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Digital-Tool-Usage-Log.en.html) |
+| 81 | Organizational Change Request | Organizational-Change-Request.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Organizational-Change-Request.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
