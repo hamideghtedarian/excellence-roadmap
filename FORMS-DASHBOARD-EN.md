@@ -69,6 +69,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 86 | Corrective Action Request (CAR) | Corrective-Action-Request.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Corrective-Action-Request.en.html) |
 | 87 | Training Needs Assessment Form | Training-Needs-Assessment.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Training-Needs-Assessment.en.html) |
 | 88 | Digital Collaboration Feedback Form | Digital-Collaboration-Feedback.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Digital-Collaboration-Feedback.en.html) |
+| 89 | Knowledge Sharing Contribution Log | Knowledge-Sharing-Contribution-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Knowledge-Sharing-Contribution-Log.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
