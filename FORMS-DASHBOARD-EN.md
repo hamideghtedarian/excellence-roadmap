@@ -46,6 +46,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 63 | Leadership Feedback Form | Leadership-Feedback-Form.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Leadership-Feedback-Form.en.html) |
 | 64 | Management Meeting Summary | Management-Meeting-Summary.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Management-Meeting-Summary.en.html) |
 | 65 | Strategic Risk Register | Strategic-Risk-Register.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Risk-Register.en.html) |
+| 66 | International Feedback Form | International-Feedback-Form.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/International-Feedback-Form.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
