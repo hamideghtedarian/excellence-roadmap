@@ -66,6 +66,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 83 | Sustainability Initiative Tracker | Sustainability-Initiative-Tracker.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Sustainability-Initiative-Tracker.en.html) |
 | 84 | Employee Recognition Nomination | Employee-Recognition-Nomination.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Employee-Recognition-Nomination.en.html) |
 | 85 | Internal Audit Findings Log | Internal-Audit-Findings-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Internal-Audit-Findings-Log.en.html) |
+| 86 | Corrective Action Request (CAR) | Corrective-Action-Request.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Corrective-Action-Request.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
