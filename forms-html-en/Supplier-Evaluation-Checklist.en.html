@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplier Evaluation Checklist – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📦 Supplier Evaluation Checklist</h2>
+
+    <label>Supplier Name:</label>
+    <input type="text" name="supplier_name">
+
+    <label>Evaluation Date:</label>
+    <input type="date" name="evaluation_date">
+
+    <label>Evaluator Name:</label>
+    <input type="text" name="evaluator_name">
+
+    <label>Product/Service Provided:</label>
+    <input type="text" name="product_service">
+
+    <label>Evaluation Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Criteria</th>
+          <th>Rating (1–5)</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Quality of Deliverables</td>
+          <td><input type="number" name="quality_rating" min="1" max="5"></td>
+          <td><input type="text" name="quality_comments"></td>
+        </tr>
+        <tr>
+          <td>Timeliness of Delivery</td>
+          <td><input type="number" name="timeliness_rating" min="1" max="5"></td>
+          <td><input type="text" name="timeliness_comments"></td>
+        </tr>
+        <tr>
+          <td>Responsiveness and Communication</td>
+          <td><input type="number" name="communication_rating" min="1" max="5"></td>
+          <td><input type="text" name="communication_comments"></td>
+        </tr>
+        <tr>
+          <td>Compliance with Requirements</td>
+          <td><input type="number" name="compliance_rating" min="1" max="5"></td>
+          <td><input type="text" name="compliance_comments"></td>
+        </tr>
+        <tr>
+          <td>Pricing and Value</td>
+          <td><input type="number" name="pricing_rating" min="1" max="5"></td>
+          <td><input type="text" name="pricing_comments"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <label>Overall Evaluation Summary:</label>
+    <textarea name="overall_summary"></textarea>
+
+    <label>Recommended Actions:</label>
+    <textarea name="recommended_actions"></textarea>
+
+    <label>Next Review Date:</label>
+    <input type="date" name="next_review_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
