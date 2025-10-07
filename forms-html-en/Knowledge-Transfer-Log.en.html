@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Knowledge Transfer Log – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📚 Knowledge Transfer Log</h2>
+
+    <label>Knowledge Source (Person or Team):</label>
+    <input type="text" name="knowledge_source">
+
+    <label>Knowledge Recipient(s):</label>
+    <input type="text" name="knowledge_recipient">
+
+    <label>Transfer Date:</label>
+    <input type="date" name="transfer_date">
+
+    <label>Topic or Area of Knowledge:</label>
+    <input type="text" name="knowledge_topic">
+
+    <label>Context or Reason for Transfer:</label>
+    <textarea name="transfer_context"></textarea>
+
+    <label>Method of Transfer:</label>
+    <select name="transfer_method">
+      <option value="mentoring">Mentoring</option>
+      <option value="presentation">Presentation</option>
+      <option value="documentation">Documentation</option>
+      <option value="shadowing">Job Shadowing</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Key Insights Shared:</label>
+    <textarea name="key_insights"></textarea>
+
+    <label>Tools or Resources Provided:</label>
+    <textarea name="resources_provided"></textarea>
+
+    <label>Follow-up Actions (if any):</label>
+    <textarea name="follow_up_actions"></textarea>
+
+    <label>Feedback from Recipient:</label>
+    <textarea name="recipient_feedback"></textarea>
+
+    <label>Logged By:</label>
+    <input type="text" name="logged_by">
+
+    <label>Log Entry Date:</label>
+    <input type="date" name="log_entry_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
