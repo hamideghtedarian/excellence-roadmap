@@ -57,6 +57,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 74 | Project Evaluation Summary | Project-Evaluation-Summary.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Project-Evaluation-Summary.en.html) |
 | 75 | Risk Mitigation Action Plan | Risk-Mitigation-Action-Plan.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Risk-Mitigation-Action-Plan.en.html) |
 | 76 | Process Improvement Proposal | Process-Improvement-Proposal.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Process-Improvement-Proposal.en.html) |
+| 77 | Customer Complaint Resolution Log | Customer-Complaint-Resolution-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Customer-Complaint-Resolution-Log.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
