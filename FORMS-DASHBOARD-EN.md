@@ -50,6 +50,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 67 | Monthly Performance Snapshot | Monthly-Performance-Snapshot.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Monthly-Performance-Snapshot.en.html) |
 | 68 | Strategic Initiative Tracker | Strategic-Initiative-Tracker.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Initiative-Tracker.en.html) |
 | 69 | KPI Monitoring Sheet | KPI-Monitoring-Sheet.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/KPI-Monitoring-Sheet.en.html) |
+| 70 | Stakeholder Feedback Summary | Stakeholder-Feedback-Summary.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Stakeholder-Feedback-Summary.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
