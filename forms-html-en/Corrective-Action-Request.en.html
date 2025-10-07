@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Corrective Action Request (CAR) – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🛠️ Corrective Action Request (CAR)</h2>
+
+    <label>Request Number:</label>
+    <input type="text" name="request_number">
+
+    <label>Submitted By:</label>
+    <input type="text" name="submitted_by">
+
+    <label>Department or Unit:</label>
+    <input type="text" name="department_name">
+
+    <label>Submission Date:</label>
+    <input type="date" name="submission_date">
+
+    <label>Description of Nonconformity or Issue:</label>
+    <textarea name="issue_description"></textarea>
+
+    <label>Date Issue Was Identified:</label>
+    <input type="date" name="issue_date">
+
+    <label>Immediate Action Taken (if any):</label>
+    <textarea name="immediate_action"></textarea>
+
+    <label>Root Cause Analysis:</label>
+    <textarea name="root_cause_analysis"></textarea>
+
+    <label>Proposed Corrective Action:</label>
+    <textarea name="corrective_action"></textarea>
+
+    <label>Responsible Person:</label>
+    <input type="text" name="responsible_person">
+
+    <label>Target Completion Date:</label>
+    <input type="date" name="completion_date">
+
+    <label>Verification Method:</label>
+    <textarea name="verification_method" placeholder="e.g. follow-up audit, performance check"></textarea>
+
+    <label>Status:</label>
+    <select name="status">
+      <option value="open">Open</option>
+      <option value="in_progress">In Progress</option>
+      <option value="closed">Closed</option>
+      <option value="delayed">Delayed</option>
+    </select>
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
