@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Risk Mitigation Action Plan – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>⚠️ Risk Mitigation Action Plan</h2>
+
+    <label>Project or Process Title:</label>
+    <input type="text" name="project_title">
+
+    <label>Prepared By:</label>
+    <input type="text" name="prepared_by">
+
+    <label>Assessment Date:</label>
+    <input type="date" name="assessment_date">
+
+    <label>Risk Summary Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Risk Description</th>
+          <th>Impact Level</th>
+          <th>Likelihood</th>
+          <th>Mitigation Action</th>
+          <th>Responsible Person</th>
+          <th>Deadline</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="risk1_description"></td>
+          <td>
+            <select name="risk1_impact">
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+          </td>
+          <td>
+            <select name="risk1_likelihood">
+              <option value="Likely">Likely</option>
+              <option value="Possible">Possible</option>
+              <option value="Unlikely">Unlikely</option>
+            </select>
+          </td>
+          <td><input type="text" name="risk1_action"></td>
+          <td><input type="text" name="risk1_owner"></td>
+          <td><input type="date" name="risk1_deadline"></td>
+          <td>
+            <select name="risk1_status">
+              <option value="Planned">Planned</option>
+              <option value="In Progress">In Progress</option>
+              <option value="Completed">Completed</option>
+              <option value="Delayed">Delayed</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Additional rows can be added as needed -->
+      </tbody>
+    </table>
+
+    <label>Overall Risk Summary:</label>
+    <textarea name="overall_summary"></textarea>
+
+    <label>Review Date:</label>
+    <input type="date" name="review_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
