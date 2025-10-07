@@ -45,6 +45,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 62 | Strategic Decision Log | Strategic-Decision-Log.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Strategic-Decision-Log.en.html) |
 | 63 | Leadership Feedback Form | Leadership-Feedback-Form.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Leadership-Feedback-Form.en.html) |
 | 64 | Management Meeting Summary | Management-Meeting-Summary.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Management-Meeting-Summary.en.html) |
+| 65 | Strategic Risk Register | Strategic-Risk-Register.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Risk-Register.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
