@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>International Feedback Form – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🌐 International Feedback Form</h2>
+
+    <label>Your Name:</label>
+    <input type="text" name="user_name">
+
+    <label>Organization or Country:</label>
+    <input type="text" name="organization_country">
+
+    <label>Which form(s) did you use?</label>
+    <textarea name="forms_used" placeholder="List form titles or numbers"></textarea>
+
+    <label>Purpose of Use:</label>
+    <textarea name="purpose_of_use" placeholder="e.g. internal assessment, training, benchmarking"></textarea>
+
+    <label>Was the form structure clear and usable?</label>
+    <select name="clarity_rating">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="fair">Fair</option>
+      <option value="poor">Poor</option>
+    </select>
+
+    <label>Suggestions for Improvement:</label>
+    <textarea name="suggestions"></textarea>
+
+    <label>Did you adapt or translate the form?</label>
+    <select name="adaptation_status">
+      <option value="no">No</option>
+      <option value="yes">Yes – Minor edits</option>
+      <option value="yes_major">Yes – Major adaptation</option>
+    </select>
+
+    <label>If adapted, please describe how:</label>
+    <textarea name="adaptation_description"></textarea>
+
+    <label>Would you recommend these forms to others?</label>
+    <select name="recommendation">
+      <option value="yes">Yes</option>
+      <option value="maybe">Maybe</option>
+      <option value="no">No</option>
+    </select>
+
+    <label>Any additional comments or testimonials:</label>
+    <textarea name="additional_comments"></textarea>
+
+    <label>Date of Feedback:</label>
+    <input type="date" name="feedback_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
