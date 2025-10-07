@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت خطاها و پیشنهادات – عبدالحمید اقتداریان</title>
+  <style>
+    body { font-family: sans-serif; direction: rtl; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; text-align: right; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🐞 فرم ثبت خطاها و پیشنهادات</h2>
+
+    <label>نام ثبت‌کننده:</label>
+    <input type="text" name="submitted_by">
+
+    <label>ایمیل یا راه ارتباطی (اختیاری):</label>
+    <input type="text" name="contact_info">
+
+    <label>تاریخ ثبت:</label>
+    <input type="date" name="submission_date">
+
+    <label>نوع ثبت:</label>
+    <select name="entry_type">
+      <option value="bug">خطا / اشکال فنی</option>
+      <option value="suggestion">پیشنهاد / بهبود</option>
+      <option value="other">سایر</option>
+    </select>
+
+    <label>فرم یا صفحه مربوطه:</label>
+    <input type="text" name="affected_form" placeholder="مثلاً فرم ۷۷، داشبورد، فایل راهنما">
+
+    <label>شرح مشکل یا پیشنهاد:</label>
+    <textarea name="description" placeholder="لطفاً به‌صورت واضح شرح دهید"></textarea>
+
+    <label>مراحل ایجاد خطا (در صورت وجود):</label>
+    <textarea name="steps_to_reproduce" placeholder="مثلاً: کلیک روی لینک، دریافت پیام خطا…"></textarea>
+
+    <label>ارجاع به تصویر یا فایل (در صورت وجود):</label>
+    <input type="text" name="screenshot_reference" placeholder="مثلاً لینک گیت‌هاب یا تصویر آپلود شده">
+
+    <label>سطح اولویت:</label>
+    <select name="priority_level">
+      <option value="low">کم</option>
+      <option value="medium">متوسط</option>
+      <option value="high">زیاد</option>
+      <option value="critical">بحرانی</option>
+    </select>
+
+    <label>راه‌حل پیشنهادی (اختیاری):</label>
+    <textarea name="suggested_solution"></textarea>
+
+    <label>توضیحات تکمیلی:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ چاپ فرم</button>
+
+</body>
+</html>
