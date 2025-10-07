@@ -59,6 +59,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 76 | Process Improvement Proposal | Process-Improvement-Proposal.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Process-Improvement-Proposal.en.html) |
 | 77 | Customer Complaint Resolution Log | Customer-Complaint-Resolution-Log.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Customer-Complaint-Resolution-Log.en.html) |
 | 78 | Supplier Evaluation Checklist | Supplier-Evaluation-Checklist.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Supplier-Evaluation-Checklist.en.html) |
+| 79 | Innovation Submission Form | Innovation-Submission-Form.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Innovation-Submission-Form.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
