@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strategic Initiative Progress Report – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📈 Strategic Initiative Progress Report</h2>
+
+    <label>Initiative Title:</label>
+    <input type="text" name="initiative_title">
+
+    <label>Strategic Objective Supported:</label>
+    <textarea name="strategic_objective"></textarea>
+
+    <label>Reporting Period:</label>
+    <input type="text" name="reporting_period" placeholder="e.g. Q3 2025">
+
+    <label>Prepared By:</label>
+    <input type="text" name="prepared_by">
+
+    <label>Progress Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Key Action</th>
+          <th>Planned Completion</th>
+          <th>Actual Completion</th>
+          <th>Status</th>
+          <th>Performance Indicator</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="action1_name"></td>
+          <td><input type="date" name="action1_planned"></td>
+          <td><input type="date" name="action1_actual"></td>
+          <td>
+            <select name="action1_status">
+              <option value="on_track">On Track</option>
+              <option value="delayed">Delayed</option>
+              <option value="completed">Completed</option>
+              <option value="cancelled">Cancelled</option>
+            </select>
+          </td>
+          <td><input type="text" name="action1_kpi"></td>
+          <td><input type="text" name="action1_remarks"></td>
+        </tr>
+        <!-- Additional rows can be added as needed -->
+      </tbody>
+    </table>
+
+    <label>Overall Progress Summary:</label>
+    <textarea name="overall_summary"></textarea>
+
+    <label>Risks or Barriers Identified:</label>
+    <textarea name="risks_barriers"></textarea>
+
+    <label>Recommendations for Next Phase:</label>
+    <textarea name="recommendations"></textarea>
+
+    <label>Next Review Date:</label>
+    <input type="date" name="next_review_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
