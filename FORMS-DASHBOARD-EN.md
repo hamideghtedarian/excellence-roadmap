@@ -64,6 +64,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 81 | Organizational Change Request | Organizational-Change-Request.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Organizational-Change-Request.en.html) |
 | 82 | Strategic Partnership Proposal | Strategic-Partnership-Proposal.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Partnership-Proposal.en.html) |
 | 83 | Sustainability Initiative Tracker | Sustainability-Initiative-Tracker.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Sustainability-Initiative-Tracker.en.html) |
+| 84 | Employee Recognition Nomination | Employee-Recognition-Nomination.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Employee-Recognition-Nomination.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
