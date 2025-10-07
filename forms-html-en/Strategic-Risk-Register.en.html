@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strategic Risk Register – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>⚠️ Strategic Risk Register</h2>
+
+    <label>Risk Title:</label>
+    <input type="text" name="risk_title">
+
+    <label>Risk Reference Code:</label>
+    <input type="text" name="risk_code">
+
+    <label>Date Identified:</label>
+    <input type="date" name="date_identified">
+
+    <label>Identified By:</label>
+    <input type="text" name="identified_by">
+
+    <label>Strategic Objective Affected:</label>
+    <textarea name="strategic_objective"></textarea>
+
+    <label>Risk Description:</label>
+    <textarea name="risk_description"></textarea>
+
+    <label>Risk Category:</label>
+    <select name="risk_category">
+      <option value="financial">Financial</option>
+      <option value="operational">Operational</option>
+      <option value="compliance">Compliance</option>
+      <option value="reputational">Reputational</option>
+      <option value="strategic">Strategic</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Likelihood (1–5):</label>
+    <select name="likelihood">
+      <option value="5">5 – Very High</option>
+      <option value="4">4 – High</option>
+      <option value="3">3 – Medium</option>
+      <option value="2">2 – Low</option>
+      <option value="1">1 – Very Low</option>
+    </select>
+
+    <label>Impact (1–5):</label>
+    <select name="impact">
+      <option value="5">5 – Severe</option>
+      <option value="4">4 – Major</option>
+      <option value="3">3 – Moderate</option>
+      <option value="2">2 – Minor</option>
+      <option value="1">1 – Negligible</option>
+    </select>
+
+    <label>Risk Score (auto-calculated):</label>
+    <input type="text" name="risk_score" placeholder="Likelihood × Impact">
+
+    <label>Mitigation Actions:</label>
+    <textarea name="mitigation_actions"></textarea>
+
+    <label>Responsible Owner:</label>
+    <input type="text" name="risk_owner">
+
+    <label>Monitoring Frequency:</label>
+    <select name="monitoring_frequency">
+      <option value="monthly">Monthly</option>
+      <option value="quarterly">Quarterly</option>
+      <option value="annually">Annually</option>
+      <option value="on_demand">On Demand</option>
+    </select>
+
+    <label>Review Date:</label>
+    <input type="date" name="review_date">
+
+    <label>Register Entry Date:</label>
+    <input type="date" name="entry_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
