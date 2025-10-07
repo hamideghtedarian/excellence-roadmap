@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Training Needs Assessment – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>📚 Training Needs Assessment Form</h2>
+
+    <label>Employee Name:</label>
+    <input type="text" name="employee_name">
+
+    <label>Department or Unit:</label>
+    <input type="text" name="department_name">
+
+    <label>Position or Role:</label>
+    <input type="text" name="employee_role">
+
+    <label>Assessment Date:</label>
+    <input type="date" name="assessment_date">
+
+    <label>Training Needs Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Skill or Knowledge Area</th>
+          <th>Current Proficiency</th>
+          <th>Desired Level</th>
+          <th>Training Method</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="skill1_area"></td>
+          <td>
+            <select name="skill1_current">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+          </td>
+          <td>
+            <select name="skill1_desired">
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+              <option value="expert">Expert</option>
+            </select>
+          </td>
+          <td>
+            <select name="skill1_method">
+              <option value="workshop">Workshop</option>
+              <option value="online_course">Online Course</option>
+              <option value="mentoring">Mentoring</option>
+              <option value="on_the_job">On-the-Job Training</option>
+            </select>
+          </td>
+          <td>
+            <select name="skill1_priority">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Additional rows can be added as needed -->
+      </tbody>
+    </table>
+
+    <label>Overall Training Goals:</label>
+    <textarea name="training_goals"></textarea>
+
+    <label>Recommended Timeline:</label>
+    <input type="text" name="training_timeline" placeholder="e.g. Q1 2026, 3 months">
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
