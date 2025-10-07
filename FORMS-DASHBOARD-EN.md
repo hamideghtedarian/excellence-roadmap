@@ -48,6 +48,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 65 | Strategic Risk Register | Strategic-Risk-Register.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Risk-Register.en.html) |
 | 66 | International Feedback Form | International-Feedback-Form.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/International-Feedback-Form.en.html) |
 | 67 | Monthly Performance Snapshot | Monthly-Performance-Snapshot.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Monthly-Performance-Snapshot.en.html) |
+| 68 | Strategic Initiative Tracker | Strategic-Initiative-Tracker.en.html | 2025-10-07 | ✅ Final | [Link](forms-html-en/Strategic-Initiative-Tracker.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
