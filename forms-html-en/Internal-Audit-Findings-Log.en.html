@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internal Audit Findings Log – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🔍 Internal Audit Findings Log</h2>
+
+    <label>Audit Title:</label>
+    <input type="text" name="audit_title">
+
+    <label>Audited Unit or Process:</label>
+    <input type="text" name="audited_unit">
+
+    <label>Audit Date:</label>
+    <input type="date" name="audit_date">
+
+    <label>Auditor Name:</label>
+    <input type="text" name="auditor_name">
+
+    <label>Findings Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Finding Description</th>
+          <th>Category</th>
+          <th>Severity</th>
+          <th>Corrective Action</th>
+          <th>Responsible Person</th>
+          <th>Deadline</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="finding1_description"></td>
+          <td>
+            <select name="finding1_category">
+              <option value="nonconformity">Nonconformity</option>
+              <option value="observation">Observation</option>
+              <option value="opportunity">Opportunity for Improvement</option>
+            </select>
+          </td>
+          <td>
+            <select name="finding1_severity">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </td>
+          <td><input type="text" name="finding1_action"></td>
+          <td><input type="text" name="finding1_owner"></td>
+          <td><input type="date" name="finding1_deadline"></td>
+          <td>
+            <select name="finding1_status">
+              <option value="open">Open</option>
+              <option value="in_progress">In Progress</option>
+              <option value="closed">Closed</option>
+              <option value="delayed">Delayed</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Additional rows can be added as needed -->
+      </tbody>
+    </table>
+
+    <label>Overall Audit Summary:</label>
+    <textarea name="overall_summary"></textarea>
+
+    <label>Next Audit Date:</label>
+    <input type="date" name="next_audit_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
