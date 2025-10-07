@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bug & Suggestion Tracker – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🐞 Bug & Suggestion Tracker</h2>
+
+    <label>Submitted By:</label>
+    <input type="text" name="submitted_by">
+
+    <label>Email or Contact (optional):</label>
+    <input type="text" name="contact_info">
+
+    <label>Submission Date:</label>
+    <input type="date" name="submission_date">
+
+    <label>Type of Entry:</label>
+    <select name="entry_type">
+      <option value="bug">Bug / Error</option>
+      <option value="suggestion">Suggestion / Improvement</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label>Form or Page Affected:</label>
+    <input type="text" name="affected_form" placeholder="e.g. Form 77, Dashboard, README">
+
+    <label>Description of Issue or Suggestion:</label>
+    <textarea name="description" placeholder="Please describe clearly what you observed or recommend"></textarea>
+
+    <label>Steps to Reproduce (for bugs):</label>
+    <textarea name="steps_to_reproduce" placeholder="e.g. Clicked on link, received error message…"></textarea>
+
+    <label>Screenshot or File Reference (if applicable):</label>
+    <input type="text" name="screenshot_reference" placeholder="e.g. uploaded image, GitHub link">
+
+    <label>Priority Level:</label>
+    <select name="priority_level">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+      <option value="critical">Critical</option>
+    </select>
+
+    <label>Suggested Solution (optional):</label>
+    <textarea name="suggested_solution"></textarea>
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
