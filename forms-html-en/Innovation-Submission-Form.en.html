@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Innovation Submission Form – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>💡 Innovation Submission Form</h2>
+
+    <label>Submitted By:</label>
+    <input type="text" name="submitted_by">
+
+    <label>Department or Unit:</label>
+    <input type="text" name="department_name">
+
+    <label>Submission Date:</label>
+    <input type="date" name="submission_date">
+
+    <label>Title of Innovation:</label>
+    <input type="text" name="innovation_title">
+
+    <label>Brief Description of the Idea:</label>
+    <textarea name="idea_description"></textarea>
+
+    <label>Problem or Opportunity Addressed:</label>
+    <textarea name="problem_addressed"></textarea>
+
+    <label>Proposed Solution or Approach:</label>
+    <textarea name="proposed_solution"></textarea>
+
+    <label>Expected Benefits:</label>
+    <textarea name="expected_benefits" placeholder="e.g. cost savings, efficiency, customer satisfaction"></textarea>
+
+    <label>Required Resources or Support:</label>
+    <textarea name="required_resources"></textarea>
+
+    <label>Potential Risks or Challenges:</label>
+    <textarea name="potential_risks"></textarea>
+
+    <label>Suggested Implementation Timeline:</label>
+    <input type="text" name="implementation_timeline" placeholder="e.g. 1 month, Q1 2026">
+
+    <label>Has this idea been tested or piloted?</label>
+    <select name="tested_status">
+      <option value="no">No</option>
+      <option value="yes_partial">Yes – Partially</option>
+      <option value="yes_full">Yes – Fully</option>
+    </select>
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
