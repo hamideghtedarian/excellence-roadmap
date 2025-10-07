@@ -43,6 +43,7 @@ All forms are fillable, modular, and aligned with EFQM 2025, ISO, and SDG standa
 | 61 | Executive Performance Review | Executive-Performance-Review.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Executive-Performance-Review.en.html) |
 | 61 | Executive Performance Review – Transformation Leadership | Executive-Performance-Review.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Executive-Performance-Review.en.html) |
 | 62 | Strategic Decision Log | Strategic-Decision-Log.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Strategic-Decision-Log.en.html) |
+| 63 | Leadership Feedback Form | Leadership-Feedback-Form.en.html | 2025-10-06 | ✅ Final | [Link](forms-html-en/Leadership-Feedback-Form.en.html) |
 
 ---
 ✅ Folder: `forms-html-en`  
