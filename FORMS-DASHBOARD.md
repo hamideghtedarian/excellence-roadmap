@@ -59,8 +59,8 @@
 | 49 | ارزیابی ریسک پروژه | Project-Risk-Assessment.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/Project-Risk-Assessment.fillable.html) |
 | 50 | گزارش اثربخشی ارتباطات بیرونی | External-Communication-Evaluation.fillable.html | 2025-10-05 | ✅ نهایی | [لینک](forms-html/External-Communication-Evaluation.fillable.html) |
 |
-| 73 | فرم بازخورد کاربران فارسی‌زبان | Feedback-Form-FA.html | 1402/07/15 | ✅ نهایی | [لینک](forms-html-fa/Feedback-Form-FA.html) |
-| ۹۱ | فرم ثبت خطاها و پیشنهادات | Bug-and-Suggestion-Tracker.fa.html | ۱۴۰۳/۰۷/۱۵ | ✅ نهایی | [لینک](forms-html/Bug-and-Suggestion-Tracker.fa.html) |
+| 73 | فرم بازخورد کاربران فارسی‌زبان | Feedback-Form-FA.html | 1404/07/15 | ✅ نهایی | [لینک](forms-html-fa/Feedback-Form-FA.html) |
+| ۹۱ | فرم ثبت خطاها و پیشنهادات | Bug-and-Suggestion-Tracker.fa.html | ۱۴۰4/۰۷/۱۵ | ✅ نهایی | [لینک](forms-html/Bug-and-Suggestion-Tracker.fa.html) |
 
 ## 🛠️ نکات تکمیلی
 
