@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Collaboration Feedback – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>💬 Digital Collaboration Feedback Form</h2>
+
+    <label>Team or Project Name:</label>
+    <input type="text" name="team_name">
+
+    <label>Feedback Period:</label>
+    <input type="text" name="feedback_period" placeholder="e.g. Q3 2025">
+
+    <label>Submitted By:</label>
+    <input type="text" name="submitted_by">
+
+    <label>Primary Collaboration Tools Used:</label>
+    <textarea name="tools_used" placeholder="e.g. Microsoft Teams, Trello, Google Docs"></textarea>
+
+    <label>Ease of Use:</label>
+    <select name="ease_of_use">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select>
+
+    <label>Clarity of Communication:</label>
+    <select name="communication_clarity">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select>
+
+    <label>Responsiveness of Team Members:</label>
+    <select name="responsiveness">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select>
+
+    <label>Challenges Encountered:</label>
+    <textarea name="challenges_encountered"></textarea>
+
+    <label>Suggestions for Improvement:</label>
+    <textarea name="suggestions"></textarea>
+
+    <label>Overall Satisfaction:</label>
+    <select name="overall_satisfaction">
+      <option value="very_satisfied">Very Satisfied</option>
+      <option value="satisfied">Satisfied</option>
+      <option value="neutral">Neutral</option>
+      <option value="dissatisfied">Dissatisfied</option>
+    </select>
+
+    <label>Additional Comments:</label>
+    <textarea name="additional_comments"></textarea>
+
+    <label>Submission Date:</label>
+    <input type="date" name="submission_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
