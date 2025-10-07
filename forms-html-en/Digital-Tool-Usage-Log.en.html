@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Tool Usage Log – Abdolhamid Eghtedarian</title>
+  <style>
+    body { font-family: sans-serif; direction: ltr; background: #f9f9f9; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
+    .section { background: #fff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 0 5px #ccc; }
+    h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>🖥️ Digital Tool Usage Log</h2>
+
+    <label>Unit or Department:</label>
+    <input type="text" name="unit_name">
+
+    <label>Reporting Period:</label>
+    <input type="text" name="reporting_period" placeholder="e.g. Q3 2025">
+
+    <label>Prepared By:</label>
+    <input type="text" name="prepared_by">
+
+    <label>Usage Table:</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Tool Name</th>
+          <th>Main Purpose</th>
+          <th>Frequency of Use</th>
+          <th>User Group</th>
+          <th>Issues Encountered</th>
+          <th>Training Needed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="tool1_name"></td>
+          <td><input type="text" name="tool1_purpose"></td>
+          <td>
+            <select name="tool1_frequency">
+              <option value="daily">Daily</option>
+              <option value="weekly">Weekly</option>
+              <option value="monthly">Monthly</option>
+              <option value="rarely">Rarely</option>
+            </select>
+          </td>
+          <td><input type="text" name="tool1_users"></td>
+          <td><input type="text" name="tool1_issues"></td>
+          <td>
+            <select name="tool1_training">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+              <option value="partial">Partial</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Additional rows can be added as needed -->
+      </tbody>
+    </table>
+
+    <label>Overall Observations:</label>
+    <textarea name="overall_observations"></textarea>
+
+    <label>Recommendations for Improvement:</label>
+    <textarea name="recommendations"></textarea>
+
+    <label>Submission Date:</label>
+    <input type="date" name="submission_date">
+  </div>
+
+  <button onclick="window.print()">🖨️ Print Form</button>
+
+</body>
+</html>
